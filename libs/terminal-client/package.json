@@ -1,0 +1,29 @@
+{
+  "name": "@md-guide/remote-terminal-client",
+  "version": "0.2.3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "dependencies": {
+    "xterm": "5.1.0",
+    "xterm-for-react": "1.0.4"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@md-guide/remote-terminal-server",
+  "version": "0.2.3",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsc --watch --preserveWatchOutput",
+    "prepublishOnly": "tsc",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4",
+    "node-pty": "^0.10.1",
+    "term-size": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}

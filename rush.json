@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.46.1",
+  "pnpmVersion": "5.15.2",
+  "pnpmOptions": {},
+  "nodeSupportedVersionRange": ">=12.13.0",
+  "gitPolicy": {},
+  "repository": {},
+  "eventHooks": {
+    "preRushInstall": [],
+    "postRushInstall": [],
+    "preRushBuild": [],
+    "postRushBuild": []
+  },
+  "variants": [],
+  "projects": [
+    {
+      "packageName": "@md-guide/cli-old",
+      "projectFolder": "archive/cli-old"
+    },
+    {
+      "packageName": "@md-guide/javascript",
+      "projectFolder": "guides/javascript"
+    },
+    {
+      "packageName": "@md-guide/cli",
+      "projectFolder": "guides/node"
+    },
+    {
+      "packageName": "javascript-notebook",
+      "projectFolder": "libs/cli"
+    },
+    {
+      "packageName": "@jscript-notebook/local-api",
+      "projectFolder": "libs/local-api"
+    },
+    {
+      "packageName": "@jscript-notebook/local-client",
+      "projectFolder": "libs/local-client"
+    },
+    {
+      "packageName": "@md-guide/remote-terminal-client",
+      "projectFolder": "libs/terminal-client"
+    },
+    {
+      "packageName": "@md-guide/remote-terminal-server",
+      "projectFolder": "libs/terminal-server"
+    },
+    {
+      "packageName": "autofill-rushjson",
+      "projectFolder": "tooling/autofill-rushjson"
+    },
+    {
+      "packageName": "rush-run",
+      "projectFolder": "tooling/rush-run"
+    }
+  ]
+}
