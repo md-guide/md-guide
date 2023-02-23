@@ -3,6 +3,10 @@
 Interactive and replayable programming guides in markdown
 
 ## How to use
+```sh
+npm install -g @microsoft/rush
+rush update
+```
 Start the build process
 
 ```sh
