@@ -120,10 +120,13 @@ export const createCellsRouter: any = (filename: string, dir: string) => {
   // const { onMessage, send: sendMessage } = useSocket('/cells')
 
 
+
+  
   const router = express.Router();
   // @ts-ignore
   router.use(express.json());
   const fullPath = path.join(dir, filename);
+  // file sync
   const guideWatcher = chokidar.watch(fullPath)
   getFileTree(router);
   getFileAtHashRoute(router);

@@ -24,7 +24,7 @@ export const serve = (
     );
   } else {
     const packagePath = require.resolve(
-      "@jscript-notebook/local-client/build/index.html"
+      "@md-guide/web/build/index.html"
     );
     app.use(express.static(path.dirname(packagePath)));
   }

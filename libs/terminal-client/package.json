@@ -1,5 +1,5 @@
 {
-  "name": "@md-guide/remote-terminal-client",
+  "name": "@md-guide/terminal-client",
   "version": "0.2.3",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -16,8 +16,8 @@ rush run -s start
 Go to the example project and start run the command tool
 
 ```sh
-cd ./libs/example
-node ../cli/dist/index.js serve
+cd ./examples/example
+rushx mdg
 ```
 
 Now you can:

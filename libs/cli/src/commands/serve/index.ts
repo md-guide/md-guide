@@ -1,5 +1,5 @@
 import { Command } from "commander";
-import { serve } from "@jscript-notebook/local-api";
+import { serve } from "@md-guide/local-api";
 import path from "path";
 import chalk from "chalk";
 
@@ -16,12 +16,10 @@ const serveAction = async (filename = "GUIDE.md", { port }: Options) => {
   try {
     await serve(parseFloat(port), path.basename(filename), dir, true);
     log(
-      `Notebook live at ${chalk.inverse(
+      `Guide live at ${chalk.inverse(
         `http://localhost:${port}`
       )} \n opened file ${chalk.underline(
         `${path.basename(filename)}`
-      )} \n browse source code at ${chalk.green(
-        `https://github.com/enixam/js-notebook`
       )}`
     );
   } catch (error: any) {

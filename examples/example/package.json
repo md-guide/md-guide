@@ -1,0 +1,10 @@
+{
+  "name": "@md-guide/simple-example",
+  "version": "0.0.1",
+  "dependencies": {
+    "@md-guide/cli": "0.0.1"
+  },
+  "scripts": {
+    "mdg": "node ./node_modules/@md-guide/cli/dist/index.js serve"
+  }
+}

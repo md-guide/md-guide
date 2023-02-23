@@ -1,8 +1,9 @@
 {
-  "name": "javascript-notebook",
-  "version": "0.2.3",
+  "name": "@md-guide/cli",
+  "version": "0.0.1",
   "license": "MIT",
-  "bin": "dist/index.js",
+  "bin": {
+  },
   "files": [
     "dist"
   ],
@@ -14,7 +15,7 @@
     "prepublishOnly": "esbuild ./src/index.js --platform=node --outfile=./dist/index.js --bundle --minify --define:process.env.NODE_ENV='production'"
   },
   "devDependencies": {
-    "@jscript-notebook/local-api": "^0.2.3",
+    "@md-guide/local-api": "0.0.1",
     "@types/chalk": "^2.2.0",
     "@types/node": "^14.14.37",
     "@types/webrtc": "^0.0.27",
@@ -25,7 +26,7 @@
   },
   "gitHead": "03c0a809fc3245f27bff8fae0c7e7d56022891bf",
   "dependencies": {
-    "@jscript-notebook/local-client": "^0.2.3",
+    "@md-guide/web": "0.0.1",
     "autofill-rushjson": "^1.0.2"
   }
 }

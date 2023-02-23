@@ -15,36 +15,32 @@
   "variants": [],
   "projects": [
     {
-      "packageName": "@md-guide/cli-old",
-      "projectFolder": "archive/cli-old"
+      "packageName": "@md-guide/simple-example",
+      "projectFolder": "examples/example"
     },
     {
-      "packageName": "@md-guide/javascript",
-      "projectFolder": "guides/javascript"
-    },
-    {
-      "packageName": "@md-guide/cli",
+      "packageName": "@md-guide/example-test",
       "projectFolder": "guides/node"
     },
     {
-      "packageName": "javascript-notebook",
+      "packageName": "@md-guide/cli",
       "projectFolder": "libs/cli"
     },
     {
-      "packageName": "@jscript-notebook/local-api",
+      "packageName": "@md-guide/local-api",
       "projectFolder": "libs/local-api"
     },
     {
-      "packageName": "@jscript-notebook/local-client",
-      "projectFolder": "libs/local-client"
-    },
-    {
-      "packageName": "@md-guide/remote-terminal-client",
+      "packageName": "@md-guide/terminal-client",
       "projectFolder": "libs/terminal-client"
     },
     {
-      "packageName": "@md-guide/remote-terminal-server",
+      "packageName": "@md-guide/terminal-server",
       "projectFolder": "libs/terminal-server"
+    },
+    {
+      "packageName": "@md-guide/web",
+      "projectFolder": "libs/web"
     },
     {
       "packageName": "autofill-rushjson",
